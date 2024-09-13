@@ -18,7 +18,7 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <>
-    <div style={{display:"flex",justifyContent:"center",padding:"1.5rem",border:"red"}}>
+    <div style={{display:"flex",justifyContent:"center",padding:"1.5rem",border:"white"}}>
     <Button/>
     </div>
       <Head>
