@@ -6,7 +6,7 @@ on:
       - 'apps/next-app/**'
       - 'packages/ui/**'
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
