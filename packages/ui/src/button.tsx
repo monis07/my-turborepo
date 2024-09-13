@@ -1,20 +1,12 @@
 "use client";
 
-import { ReactNode } from "react";
-
-interface ButtonProps {
-  children: ReactNode;
-  className?: string;
-  appName: string;
-}
-
-export const Button = ({ children, className, appName }: ButtonProps) => {
+export const Button = () => {
   return (
-    <button
-      className={className}
-      onClick={() => alert(`Hello from your ${appName} app!`)}
+    <button style={{width:"80px",height:"30px"}}
+      onClick={() => alert(`Hello from your button component!`)}
     >
-      {children}
+      Hello Button
     </button>
   );
 };
+
