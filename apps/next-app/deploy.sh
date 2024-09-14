@@ -6,6 +6,5 @@ cd /home/ubuntu/my-turborepo
 git pull origin main
 npm install
 npm run build
-cd apps/next-app
-npm run build
-npm run start
+pm2 stop next
+pm2 start --name "next" -- run "start-next"
