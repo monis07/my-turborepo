@@ -7,4 +7,4 @@ git pull origin main
 npm install
 npm run build
 pm2 stop next
-pm2 start --name "next" -- run "start-next"
+pm2 start ecosystem.config.js
