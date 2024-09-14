@@ -18,8 +18,9 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <>
-    <div style={{display:"flex",justifyContent:"center",padding:"1.5rem",border:"aqua"}}>
+    <div style={{display:"flex",justifyContent:"center",padding:"1.5rem"}}>
     <Button/>
+    <h1>This next app is deployed on AWS</h1>
     </div>
       <Head>
         <title>Create Next App</title>
