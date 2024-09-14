@@ -22,7 +22,7 @@ export default function Home() {
       <div style={{padding:"2rem"}}>
       <Button/>
       </div>
-    <h1 style={{textAlign:"center"}}>This next app is deployed on AWS!</h1>
+    <h1 style={{textAlign:"center"}}>This next app is deployed on AWS!!</h1>
     </div>
       <Head>
         <title>Create Next App</title>
