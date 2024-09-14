@@ -2,7 +2,7 @@
   "name": "my-turborepo",
   "private": true,
   "scripts": {
-    "start-next": "cd apps/next-app && sudo rm -rf .next && npm run build && npm run start",
+    "start-next": "cd apps/next-app && sudo rm -rf .next && sudo npm run build && npm run start",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
